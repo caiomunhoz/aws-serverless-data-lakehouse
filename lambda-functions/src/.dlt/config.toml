@@ -1,0 +1,5 @@
+[normalize.data_writer]
+disable_compression=true
+
+[destination.filesystem]
+layout="{table_name}/year={YYYY}/month={MM}/day={DD}/{load_id}.{file_id}.{ext}"
